@@ -10,7 +10,7 @@ The official implementation of Mask-aware IoU and maYOLACT detector. Our impleme
 **Mask-aware IoU:** Mask-aware IoU (maIoU) is an IoU variant for better anchor assignment to supervise instance segmentation methods. Unlike the standard IoU, Mask-aware IoU also considers the ground truth masks while assigning a proximity score for an anchor. As a result, for example, if an anchor box overlaps with a ground truth box, but not with the mask of the ground truth, e.g. due to occlusion, then it has a lower score compared to IoU. Please check out the examples below for more insight. Replacing IoU by our maIoU in the state of the art ATSS assigner yields both performance improvement and efficiency (i.e. faster inference) compared to the standard YOLACT method. 
 
 <p align="center">
-  <img src="assets/Teaser.png" width="600">
+  <img src="assets/Teaser.png" width="800">
 </p>
 
 **maIoU Detector:** Thanks to the efficiency due to ATSS with maIoU assigner, we employ more training tricks to YOLACT, and built maYOLACT Detector which is still real-time (i.e. around 25 fps) but significantly powerful (around 6 AP) than YOLACT. Our best maIoU model reaches SOTA performance by 37.7 mask AP on COCO test-dev at 25 fps.
@@ -39,7 +39,7 @@ Here, we report results in terms of AP (higher better) and oLRP (lower better).
 
 #### Comparison of Different Assigners (on COCO minival)
 
-|    Scale     |  Assigner  | box AP |  box oLRP |  Log  | Config | Model |
+|    Scale     |  Assigner  | mask AP |  mask oLRP |  Log  | Config | Model |
 | :-------------: | :-----: | :------------: | :------------: | :-------: | :-------: |:-------: |
 |    400    |  Fixed IoU  | 24.8 | 78.3 |[log](https://drive.google.com/file/d/1rGcbDsn1nd4e4BnrRfMT9Vj0uZCLnEYf/view?usp=sharing) | [config](configs/ranksort_loss/ranksort_cascade_rcnn_r50_fpn_1x_coco.py) | [model](https://drive.google.com/file/d/1mzAlDK1z_eEF63RabY20paHhlTiumePg/view?usp=sharing)  |
 |    400    |  ATSS w. IoU  | 25.3 | 77.7 |[log](https://drive.google.com/file/d/1rGcbDsn1nd4e4BnrRfMT9Vj0uZCLnEYf/view?usp=sharing) | [config](configs/ranksort_loss/ranksort_cascade_rcnn_r50_fpn_1x_coco.py) | [model](https://drive.google.com/file/d/1mzAlDK1z_eEF63RabY20paHhlTiumePg/view?usp=sharing)  |
