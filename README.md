@@ -13,7 +13,7 @@ The official implementation of Mask-aware IoU and maYOLACT detector. Our impleme
   <img src="assets/Teaser.png" width="800">
 </p>
 
-**maIoU Detector:** Thanks to the efficiency due to ATSS with maIoU assigner, we employ more training tricks to YOLACT, and built maYOLACT Detector which is still real-time (i.e. around 25 fps) but significantly powerful (around 6 AP) than YOLACT. Our best maIoU model reaches SOTA performance by 37.7 mask AP on COCO test-dev at 25 fps.
+**maYOLACT Detector:** Thanks to the efficiency due to ATSS with maIoU assigner, we incorporate more training tricks into YOLACT, and built maYOLACT Detector which is still real-time but significantly powerful (around 6 AP) than YOLACT. Our best maYOLACT model reaches SOTA performance by 37.7 mask AP on COCO test-dev at 25 fps.
 
 ## How to Cite
 
