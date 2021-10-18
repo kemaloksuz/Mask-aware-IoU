@@ -49,7 +49,7 @@ Here, we report results in terms of AP (higher better) and oLRP (lower better).
 |    550    |  ATSS w. maIoU  | 30.4 | 73.7 |[log](https://drive.google.com/file/d/1x1Rqh9CP-XxfU3LKqVfXCe438KtEN8jM/view?usp=sharing) | [config](configs/mayolact/yolact_r50_4x8_coco_scale550_ATSSwmaIoU.py) | [model](https://drive.google.com/file/d/16Q_MjLsA-vMHpvU_CNxG94Qd4U2P1kjA/view?usp=sharing)  |
 |    700    |  Fixed IoU  | 29.7 | 74.3 |[log](https://drive.google.com/file/d/17fFPT_40tAFjwbmdlgQrBRfdo4txpc8p/view?usp=sharing) | [config](configs/mayolact/yolact_r50_4x8_coco_scale700.py) | [model](https://drive.google.com/file/d/1X6iwNV39-1juMfzbwaJxBqLcrERleiQK/view?usp=sharing)  |
 |    700    |  ATSS w. IoU  | 30.8 | 73.3 |[log](https://drive.google.com/file/d/1QQQhD_47vkYZYEXKCliC9fzJHabaXEpY/view?usp=sharing) | [config](configs/mayolact/yolact_r50_4x8_coco_scale700_ATSSwIoU.py) | [model](https://drive.google.com/file/d/1jOoiPLguZ4x6dihDNuHurI4iTLawCtVw/view?usp=sharing)  |
-|    700    |  ATSS w. maIoU  | 31.8 | 72.5 |[log](https://drive.google.com/file/d/1YuglESo8gt8fEbDavaCKoPd-gSAVDLs6/view?usp=sharing | [config](configs/mayolact/yolact_r50_4x8_coco_scale700_ATSSwmaIoU.py) | [model](https://drive.google.com/file/d/1uUMUOQoes-biTIMx3JeFcwMnhGMIBxYH/view?usp=sharing)  |
+|    700    |  ATSS w. maIoU  | 31.8 | 72.5 |[log](https://drive.google.com/file/d/1YuglESo8gt8fEbDavaCKoPd-gSAVDLs6/view?usp=sharing) | [config](configs/mayolact/yolact_r50_4x8_coco_scale700_ATSSwmaIoU.py) | [model](https://drive.google.com/file/d/1uUMUOQoes-biTIMx3JeFcwMnhGMIBxYH/view?usp=sharing)  |
 
 ### maYOLACT Detector (on COCO test-dev)
 
