@@ -55,8 +55,8 @@ Here, we report results in terms of AP (higher better) and oLRP (lower better).
 
 |    Scale     |  Backbone  | mask AP | fps |  Log  | Config | Model |
 | :-------------: | :-----: | :------------: | :------------: | :-------: | :-------: | :-------: |
-| maYOLACT-550 |    ResNet-50 |   35.2  |   30  |[log](https://drive.google.com/file/d/1Ya2V728qtS5WTl7V-hS052DPETXh8c6b/view?usp=sharing)| [config](configs/ranksort_loss/ranksort_atss_r50_fpn_1x_coco.py) | [model](https://drive.google.com/file/d/1yQ0gVXSIK2SOvwyYjv9vT5DqFcExZ5Ty/view?usp=sharing) |
-| maYOLACT-700 |    ResNet-50 |   37.7  |   25  |[log](https://drive.google.com/file/d/1nEYfrgFPX24AXy13UB0vddASeu3tFTG7/view?usp=sharing)| [config](configs/ranksort_loss/ranksort_paa_r50_fpn_1x_coco.py) | [model](https://drive.google.com/file/d/1oGILFHoaFEOkh0ba-9bIHkw3yrzXcQ5I/view?usp=sharing) |
+| maYOLACT-550 |    ResNet-50 |   35.2  |   30  | Coming Soon | |
+| maYOLACT-700 |    ResNet-50 |   37.7  |   25  | Coming Soon | |
 
 ## Running the Code
 
