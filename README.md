@@ -22,7 +22,7 @@ Please cite the paper if you benefit from our paper or the repository:
 @inproceedings{maIoU,
        title = {Mask-aware IoU for Anchor Assignment in Real-time Instance Segmentation},
        author = {Kemal Oksuz and Baris Can Cam and Fehmi Kahraman and Zeynep Sonat Baltaci and Sinan Kalkan and Emre Akbas},
-       booktitle = {The British Machine Vision Conference (BMCV)},
+       booktitle = {The British Machine Vision Conference (BMVC)},
        year = {2021}
 }
 ```
