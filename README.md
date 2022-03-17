@@ -1,9 +1,10 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mask-aware-iou-for-anchor-assignment-in-real/real-time-instance-segmentation-on-mscoco)](https://paperswithcode.com/sota/real-time-instance-segmentation-on-mscoco?p=mask-aware-iou-for-anchor-assignment-in-real)
+
 The official implementation of Mask-aware IoU and maYOLACT detector. Our implementation is based on [mmdetection](https://github.com/open-mmlab/mmdetection).
 
 > [**Mask-aware IoU for Anchor Assignment in Real-time Instance Segmentation**](https://arxiv.org/abs/2110.09734),            
 > [Kemal Oksuz](https://kemaloksuz.github.io/), Baris Can Cam, Fehmi Kahraman, Zeynep Sonat Baltaci, [Emre Akbas](http://user.ceng.metu.edu.tr/~emre/), [Sinan Kalkan](http://www.kovan.ceng.metu.edu.tr/~sinan/),
 > *BMVC 2021. ([arXiv pre-print](https://arxiv.org/abs/2110.09734))*
-
 
 ## Summary
 
