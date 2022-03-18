@@ -36,9 +36,7 @@ Please cite the paper if you benefit from our paper or the repository:
 ## Trained Models
 Here, we report results in terms of AP (higher better) and oLRP (lower better).
 
-### Multi-stage Object Detection 
-
-#### Comparison of Different Assigners (on COCO minival)
+### Comparison of Different Assigners (on COCO minival)
 
 |    Scale     |  Assigner  | mask AP |  mask oLRP |  Log  | Config | Model |
 | :-------------: | :-----: | :------------: | :------------: | :-------: | :-------: |:-------: |
