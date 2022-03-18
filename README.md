@@ -59,6 +59,13 @@ Here, we report results in terms of AP (higher better) and oLRP (lower better).
 | maYOLACT-550 |    ResNet-50 |   35.2  |   30  | Coming Soon | |
 | maYOLACT-700 |    ResNet-50 |   37.7  |   25  | Coming Soon | |
 
+### Benchmark on Paperswithcode
+Our method ranked 1st and 3rd among real-time instance segmentation methods on [papers with code](https://paperswithcode.com/sota/real-time-instance-segmentation-on-mscoco):
+<p align="center">
+  <img src="assets/maiou_pwc_table.png" width="800">
+</p>
+
+
 ## Running the Code
 
 ### Training Code
