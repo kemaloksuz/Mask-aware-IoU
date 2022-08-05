@@ -50,7 +50,7 @@ c. Clone the mmdetection repository.
 
 ```shell
 git clone https://github.com/kemaloksuz/Mask-aware-IoU.git
-cd mmdetection
+cd Mask-aware-IoU
 ```
 
 d. Install build requirements and then install mmdetection.
